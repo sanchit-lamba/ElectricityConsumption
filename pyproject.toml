@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "electricityconsumption"
+version = "0.1.0"
+description = ""
+authors = ["sanchit lamba <mail@sanchit.cc>"]
+package-mode = false
+[tool.poetry.dependencies]
+python = "3.8"
+python-utils = "2.5.0"
+matplotlib = "3.3.4"
+pandas = "1.2.2"
+scikit-learn = "0.24.1"
+scipy = "1.6.0"
+seaborn = "0.11.1"
+pystan = "2.19.1.1"
+lightgbm = "3.1.1"
+jupyter = "^1.1.1"
+numpy = "1.21"
+utils = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
